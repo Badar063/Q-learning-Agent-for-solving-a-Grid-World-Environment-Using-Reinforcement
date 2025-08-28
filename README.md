@@ -26,82 +26,8 @@ Rewards:
 
 📖 Learning Rule
 
-The state value update follows the standard Q-learning update rule:
-
-𝑉
-(
-𝑆
-𝑡
-)
-←
-𝑉
-(
-𝑆
-𝑡
-)
-+
-𝛼
-[
-𝑉
-(
-𝑆
-𝑡
-+
-1
-)
-−
-𝑉
-(
-𝑆
-𝑡
-)
-]
-V(S
-t
-	​
-
-)←V(S
-t
-	​
-
-)+α[V(S
-t+1
-	​
-
-)−V(S
-t
-	​
-
-)]
-
-Where:
-
-𝛼
-α = learning rate (0 < α ≤ 1)
-
-𝑉
-(
-𝑆
-𝑡
-)
-V(S
-t
-	​
-
-) = current state value
-
-𝑉
-(
-𝑆
-𝑡
-+
-1
-)
-V(S
-t+1
-	​
-
-) = next state value
+he state value update follows the standard Q-learning update rule: 𝑉 ( 𝑆 𝑡 ) ← 𝑉 ( 𝑆 𝑡 ) + 𝛼 [ 𝑉 ( 𝑆 𝑡 + 1 ) − 𝑉 ( 𝑆 𝑡 ) ] V(S t ​ )←V(S t ​ )+α[V(S t+1 ​ )−V(S t ​ )]
+Where: 𝛼 α = learning rate (0 < α ≤ 1) 𝑉 ( 𝑆 𝑡 ) V(S t ​ ) = current state value 𝑉 ( 𝑆 𝑡 + 1 ) V(S t+1 ​ ) = next state value
 
 ⚡ Features
 
